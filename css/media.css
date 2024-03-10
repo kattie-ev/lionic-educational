@@ -1,0 +1,394 @@
+@media (max-width: 1200px) {
+  .form-input,
+  .form-select {
+    width: 100%;
+  }
+
+  .footer {
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    position: relative;
+    display: block;
+    border: 1px solid currentColor;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    color: #317289;
+    background-color: transparent;
+  }
+
+  .burger-line {
+    position: absolute;
+    left: 50%; /* Выравнивает абсолютный элемент по центру его родителя */
+    width: 20px;
+    height: 2px;
+    border-radius: inherit;
+    background-color: currentColor;
+    transform: translateX(-50%); /* Выравнивает абсолютный элемент по центру его родителя */
+  }
+
+  .burger-line:nth-child(1) {
+    top: 13px;
+  }
+
+  .burger-line:nth-child(2) {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .burger-line:nth-child(3) {
+    bottom: 13px;
+  }
+
+  .header-btn {
+    margin: 0;
+    margin-right: 7px;
+    margin-left: auto;
+    padding: 10px 20.5px;
+    line-height: 20px;
+  }
+
+  .hero-content {
+    max-width: 75%;
+  }
+
+  .section-services-list {
+    --offsets: 2;
+  }
+
+  .section-clients-list {
+    --offsets: 1;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    margin-bottom: var(--gap);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-services-list {
+    --offsets: 1;
+  }
+
+  .form {
+    padding: 0;
+  }
+
+  .footer-nav {
+    margin-right: 30px;
+  }
+
+  .footer-nav-item:not(:last-child) {
+    margin-right: 18px;
+  }
+
+  .footer-nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-clients-list {
+    --offsets: 0;
+  }
+
+  .section-contacts-list {
+    --offsets: 0;
+  }
+
+  .footer-right {
+    flex-direction: column;
+  }
+
+  .header {
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .header-logo {
+    width: 80px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .section-hero {
+    background: none;
+  }
+
+  .hero-container {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  .section-hero-heading {
+    margin-bottom: 15px;
+  }
+
+  .section-hero-description {
+    margin-bottom: 15px;
+  }
+
+  .section-hero-action {
+    width: 100%;
+  }
+  .section-hero-btn {
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .section-offset {
+    padding: 60px 0;
+  }
+
+  .section-heading {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .services-descr {
+    margin-bottom: 15px;
+    text-align: left;
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  :root {
+    --gap: 15px;
+  }
+
+  .section-services-list {
+    row-gap: 20px;
+  }
+
+  .section-services-icon {
+    margin-bottom: 15px;
+    height: 42px;
+  
+  }
+
+  .section-services-item {
+    min-height: 222px;
+    padding: 15px;
+  }
+
+  .section-services-item-heading {
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 21px;
+    white-space: wrap;
+    text-align: center;
+  }
+
+  .section-services-item-description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .section-articles-heading {
+    margin-bottom: 11px;
+  }
+
+  .articles-list {
+    --offsets: 0;
+  }
+
+  .blog-preview {
+    flex-direction: row;
+    align-items: center;
+    min-height: 191px;
+  }
+
+  .blog-preview-image {
+    flex-shrink: 0;
+    height: 100%;
+    width: 86px;
+  }
+
+  .blog-preview-text {
+    padding: 15px;
+  }
+
+  .blog-preview-time {
+    margin-bottom: 3px;
+  }
+
+  .blog-preview-title {
+    margin-bottom: 3px;
+  }
+
+  .section-clients-item {
+    padding: 20px;
+  }
+
+  .section-clients-testimonial {
+    margin-bottom: 31px;
+  }
+
+  .section-clients-user {
+    padding-top: 30px;
+  }
+
+  .section-contacts-list {
+    --gap: 30px;
+  }
+
+  .section-contacts-icon {
+    margin-bottom: 15px;
+  }
+  
+  .section-contacts-item-heading {
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 180%;
+  }
+
+  .section-contacts-info {
+    font-size: 14px;
+    line-height: 25.2px;
+  }
+
+  .section-join-us {
+    padding: 60px 0;
+  }
+
+  .section-join-us-description {
+    margin-bottom: 15px;
+  }
+
+  .form-top {
+    flex-direction: column;
+    margin-bottom: 11px;
+  }
+
+  .form-top-left {
+    margin-bottom: 15px;
+    width: 100%;
+    row-gap: 15px;
+  }
+
+  .form-input {
+    padding: 16px 19px;
+  }
+
+  .form-select {
+    padding: 16px 15px;
+  }
+
+  .form-top-right {
+    width: 100%;
+    min-height: 240px;
+  }
+
+  .form-textarea {
+    padding: 16px 19px;
+    height: 240px;
+  }
+
+  .form-bottom {
+    width: 100%;
+  }
+
+  .form-bottom-wrapper {
+    width: 100%;
+  }
+
+  .form-btn {
+    width: 100%;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .footer {
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .footer-container {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+
+  .footer-nav {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+  .footer-nav-list {
+    flex-wrap: wrap;
+    /* gap: 15px 32px; */
+    row-gap: var(--gap);
+  }
+
+  .footer-nav-item:not(:nth-child(2n)) {
+    margin-right: 30px;
+  }
+  /* .footer-nav-item {
+    margin-right: 0;
+  } */
+
+  .footer-nav-link {
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .footer-right {
+    align-items: flex-start;
+    margin-bottom: 26px;
+  }
+
+  .footer-logo {
+    margin: 0;
+    margin-bottom: 27px;
+    align-self: flex-start;
+    width: 80px;
+  }
+
+  .footer-left {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .footer-copyrights {
+    margin-left: -15px;
+    padding: 15px 0;
+    width: calc(100% + 30px);
+    text-align: center;
+    border-top: 1px solid #c4c4c4;
+  }
+
+  /* Или бордер над копирайтом можно сделать так:
+  .footer-copyrights {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-copyrights::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: calc(100% + 30px);
+    height: 1px;
+    background-color: #c4c4c4;
+  }
+  
+  */
+}
